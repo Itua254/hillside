@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { Button } from "@/components/ui/Button";
 import { ArrowRight, CreditCard } from "lucide-react";
 
 const PaymentIcons = () => (
