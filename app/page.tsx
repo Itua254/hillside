@@ -1,22 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
-import { ArrowRight, ChevronRight, CreditCard } from "lucide-react";
+import { ArrowRight, ChevronRight } from "lucide-react";
 import Partners from "@/components/Partners";
-
-const PaymentIcons = () => (
-  <div className="flex items-center gap-2 mt-2">
-    <div className="flex items-center gap-1">
-      <div className="w-4 h-4 bg-green-500 rounded-sm flex items-center justify-center text-[7px] text-white font-bold">M</div>
-    </div>
-    <div className="flex items-center gap-1">
-      <div className="w-4 h-4 bg-blue-600 rounded-sm flex items-center justify-center text-[7px] text-white font-bold italic">P</div>
-    </div>
-    <div className="flex items-center gap-1">
-      <CreditCard className="w-3 h-3 text-gray-400" />
-    </div>
-    <span className="text-[9px] font-bold text-gray-400 uppercase tracking-tighter">M-Pesa / PayPal / Card</span>
-  </div>
-);
 import Image from "next/image";
 import { supabase } from "@/lib/supabase";
 
@@ -191,7 +176,6 @@ export default async function Home() {
               </div>
               <h3 className="font-bold text-lg uppercase mb-1">White Jersey</h3>
               <p className="text-secondary font-bold">KSh 2,500.00</p>
-              <PaymentIcons />
             </div>
 
             {/* Product 2 */}
@@ -203,7 +187,6 @@ export default async function Home() {
               </div>
               <h3 className="font-bold text-lg uppercase mb-1">Blue Jersey</h3>
               <p className="text-secondary font-bold">KSh 2,500.00</p>
-              <PaymentIcons />
             </div>
 
             {/* Product 3 */}
@@ -215,7 +198,6 @@ export default async function Home() {
               </div>
               <h3 className="font-bold text-lg uppercase mb-1">Red Jersey</h3>
               <p className="text-secondary font-bold">KSh 2,500.00</p>
-              <PaymentIcons />
             </div>
           </div>
           <div className="mt-12">
