@@ -9,7 +9,7 @@ export default function Navbar() {
                 <Link href="/" className="flex items-center gap-3 group">
                     <div className="relative w-12 h-12 bg-white rounded-full p-1 flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
                         <Image
-                            src="/logo.png"
+                            src="https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/logo.png"
                             alt="Hillside FC Logo"
                             width={40}
                             height={40}

@@ -87,7 +87,7 @@ export default async function Home() {
               <div className="absolute inset-0 bg-primary/40 -rotate-6 rounded-lg -z-10" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <Image
-                  src="/logo.png"
+                  src="https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/logo.png"
                   alt="Hillside Crest"
                   width={200}
                   height={200}
@@ -115,7 +115,7 @@ export default async function Home() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
               {/* Feature Image */}
               <img
-                src="/simon-logilae-home.jpg"
+                src="https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/simon-logilae-home.jpg"
                 alt="Simon Logilae at Soccerex"
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -133,7 +133,7 @@ export default async function Home() {
             <Link href="/news" className="md:col-span-2 md:row-span-1 group relative bg-gray-800 overflow-hidden cursor-pointer block">
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
               <img
-                src="/fans.jpg"
+                src="https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/fans.jpg"
                 alt="Hillside FC Fans"
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -148,7 +148,7 @@ export default async function Home() {
             <Link href="/news" className="md:col-span-2 md:row-span-1 group relative bg-gray-800 overflow-hidden cursor-pointer block">
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
               <img
-                src="/condolence.jpg"
+                src="https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/condolence.jpg"
                 alt="Condolence Candles"
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />

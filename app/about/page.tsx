@@ -10,7 +10,7 @@ export default function AboutPage() {
                 <div className="absolute inset-0 z-0">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                        src="/about-hero.jpg"
+                        src="https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/about-hero.jpg"
                         alt="Hillside FC Team"
                         className="w-full h-full object-cover object-top"
                     />
@@ -71,7 +71,7 @@ export default function AboutPage() {
                         {/* Staff 1 */}
                         <div className="border border-gray-200 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow bg-white text-center">
                             <div className="aspect-square w-full mb-4 overflow-hidden rounded-md bg-gray-100">
-                                <img src="/simon-logilae-portrait.png" alt="Mr. Simon Logilae" className="w-full h-full object-cover" />
+                                <img src="https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/simon-logilae-portrait.png" alt="Mr. Simon Logilae" className="w-full h-full object-cover" />
                             </div>
                             <h3 className="text-xl font-bold text-[#1e3a8a]">Mr. Simon Logilae</h3>
                             <span className="text-secondary font-bold text-sm uppercase block mb-2">Club Patron</span>
@@ -79,7 +79,7 @@ export default function AboutPage() {
                         {/* Staff 2 */}
                         <div className="border border-gray-200 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow bg-white text-center">
                             <div className="aspect-square w-full mb-4 overflow-hidden rounded-md bg-gray-100">
-                                <img src="/khalid-ceo.png" alt="CEO Khalid" className="w-full h-full object-cover" />
+                                <img src="https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/khalid-ceo.png" alt="CEO Khalid" className="w-full h-full object-cover" />
                             </div>
                             <h3 className="text-xl font-bold text-[#1e3a8a]">CEO Khalid</h3>
                             <span className="text-secondary font-bold text-sm uppercase block mb-2">Chief Executive Officer</span>
@@ -87,7 +87,7 @@ export default function AboutPage() {
                         {/* Staff 3 */}
                         <div className="border border-gray-200 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow bg-white text-center">
                             <div className="aspect-square w-full mb-4 overflow-hidden rounded-md bg-gray-100">
-                                <img src="/juliano.jpg" alt="Juliano" className="w-full h-full object-cover" />
+                                <img src="https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/juliano.jpg" alt="Juliano" className="w-full h-full object-cover" />
                             </div>
                             <h3 className="text-xl font-bold text-[#1e3a8a]">Juliano</h3>
                             <span className="text-secondary font-bold text-sm uppercase block mb-2">Team Manager</span>
@@ -95,7 +95,7 @@ export default function AboutPage() {
                         {/* Staff 4 */}
                         <div className="border border-gray-200 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow bg-white text-center">
                             <div className="aspect-square w-full mb-4 overflow-hidden rounded-md bg-gray-100">
-                                <img src="/henry-pep.jpg" alt="Henry Pep" className="w-full h-full object-cover" />
+                                <img src="https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/henry-pep.jpg" alt="Henry Pep" className="w-full h-full object-cover" />
                             </div>
                             <h3 className="text-xl font-bold text-[#1e3a8a]">Henry Pep</h3>
                             <span className="text-secondary font-bold text-sm uppercase block mb-2">Head Coach</span>

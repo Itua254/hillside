@@ -19,7 +19,7 @@ export const COMM_ARTICLES: NewsArticle[] = [
         date: "February 26, 2025",
         author: "Tunchi KE",
         category: "Club News",
-        image: "/simon-logilae-detail.jpg",
+        image: "https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/simon-logilae-detail.jpg",
         content: `
 ### Turkana on the African Football Map
 During the summit, Simon Logilae engaged with key figures in African football, including former Nigerian national team coach and football legend, Sunday Oliseh. Their discussions centered on the economic impact of football, strategies for developing grassroots talent, and the role of local clubs in shaping the future of the sport.
@@ -51,7 +51,7 @@ Be part of the journey as we push for #TurkanaFootballForChange and create new o
         date: "February 26, 2025",
         author: "Tunchi KE",
         category: "Fans",
-        image: "/fans.jpg",
+        image: "https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/fans.jpg",
         content: `
 ### Building a Strong, United Fanbase
 Football is more than just a game—it is a community, a shared experience that brings people together. Hillside FC is committed to fostering a strong connection with our supporters by creating engaging experiences, fan events, and initiatives that allow everyone to be part of the club’s success.
@@ -70,7 +70,7 @@ As we continue our journey in Division 1 of the Kenya Premier League, we invite 
         date: "February 26, 2025",
         author: "Tunchi KE",
         category: "Community",
-        image: "/condolence.jpg",
+        image: "https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/condolence.jpg",
         content: `
 ### Standing Together in Strength and Solidarity
 Football unites people beyond the pitch, and as a club deeply rooted in the Turkana community, we share in the pain of those grieving. In moments like these, our strength lies in standing together, offering comfort, and supporting one another through hardship.
@@ -90,7 +90,7 @@ Hillside FC believes in the power of community and faith. As we mourn, we also h
         date: "February 26, 2025",
         author: "Tunchi KE",
         category: "Sponsor",
-        image: "/asekosi-fuel.jpg",
+        image: "https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/asekosi-fuel.jpg",
         content: `
 ### Turkana's Trusted Stop
 Looking for a reliable fueling station in Turkana? Look no further than **ASEKOSI Fueling Station** – your trusted stop for quality fuel and excellent service.
