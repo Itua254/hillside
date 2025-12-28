@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { ArrowRight, ChevronRight } from "lucide-react";
+import Partners from "@/components/Partners";
 import Image from "next/image";
 import { supabase } from "@/lib/supabase";
 
@@ -209,24 +210,7 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* 5. OFFICIAL PARTNERS */}
-      <section className="py-16 bg-white border-t border-gray-100">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-sm font-bold uppercase tracking-[0.3em] text-gray-400 mb-12">Official Partners</h2>
-          <div className="flex flex-wrap justify-center items-center gap-12 opacity-60 hover:opacity-100 transition-opacity">
-            <div className="h-16 w-48 relative grayscale hover:grayscale-0 transition-all duration-300">
-              <Image
-                src="https://pndmpusmzgiebvbvpmat.supabase.co/storage/v1/object/public/site-assets/asekosi-logo.png"
-                alt="ASEKOSI Fueling Station"
-                fill
-                className="object-contain"
-              />
-            </div>
-            {/* Add more partners here as they come */}
-          </div>
-        </div>
-      </section>
-
+      <Partners />
     </div>
   );
 }
