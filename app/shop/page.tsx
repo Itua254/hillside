@@ -1,7 +1,21 @@
+import { ArrowRight, CreditCard } from "lucide-react";
 
-import { Button } from "@/components/ui/Button";
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+const PaymentIcons = () => (
+    <div className="flex items-center gap-3 mt-3 py-2 border-t border-gray-50">
+        <div className="flex items-center gap-1">
+            <div className="w-5 h-5 bg-green-500 rounded-sm flex items-center justify-center text-[8px] text-white font-bold">M</div>
+            <span className="text-[10px] font-bold text-gray-400 uppercase">M-Pesa</span>
+        </div>
+        <div className="flex items-center gap-1">
+            <div className="w-5 h-5 bg-blue-600 rounded-sm flex items-center justify-center text-[8px] text-white font-bold italic">P</div>
+            <span className="text-[10px] font-bold text-gray-400 uppercase">PayPal</span>
+        </div>
+        <div className="flex items-center gap-1">
+            <CreditCard className="w-4 h-4 text-gray-400" />
+            <span className="text-[10px] font-bold text-gray-400 uppercase">Card</span>
+        </div>
+    </div>
+);
 
 export default function ShopPage() {
     const products = [
@@ -49,10 +63,13 @@ export default function ShopPage() {
                             </div>
                             <h3 className="font-bold text-lg uppercase mb-1">{product.name}</h3>
                             <p className="text-secondary font-bold text-xl">{product.price}</p>
+
+                            <PaymentIcons />
+
                             <div className="mt-4">
                                 <Link href={product.link} target="_blank">
                                     <Button className="w-full bg-[#1e3a8a] hover:bg-secondary text-white font-bold uppercase tracking-widest rounded-none">
-                                        Order via WhatsApp
+                                        Buy Now
                                     </Button>
                                 </Link>
                             </div>
